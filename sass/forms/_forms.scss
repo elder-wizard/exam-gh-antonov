@@ -1,0 +1,13 @@
+@import "buttons";
+
+@import "fields";
+
+.widget-area {
+    float: right;
+    max-width: 30%;
+}
+
+textarea {
+    max-width: 560px;
+    height: 310px;
+}

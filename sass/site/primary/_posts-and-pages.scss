@@ -1,0 +1,74 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+li, a, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.posts {
+    max-width: 70%;
+    float: left;
+    li {
+        max-width: 50%;
+        float: left;
+    }
+
+}
+
+.service {
+    text-align: center;
+    ul {
+        display: inline-block;
+    }
+    li {
+        padding: 15px;
+        float: left;
+    }
+}
+
+.about {
+    background-color: #ff4848;
+}
+
+.welcome {
+    color: #004966;
+}
+
+.service {
+    background-color: #004966;
+}
+
+.clients {
+    background-color: #ff4848;
+}
+
+footer {
+    background-color: #17212a;
+}
